@@ -15,7 +15,11 @@ export const EvoChain = (props) => {
     <>
       {/* Check if evochain exist */}
       {Object.keys(evochain).length !== 0 ? (
-        <Flex justifyContent="space-evenly">
+        <Flex
+          justifyContent="space-evenly"
+          flexDirection={['column', 'row']}
+          alignItems="center"
+        >
           <Evo1 {...props} />
           {/* Check if 2nd evolution exist */}
           {evochain.evo2[0] ? (
@@ -26,9 +30,7 @@ export const EvoChain = (props) => {
                 justifyContent="center"
                 alignItems="center"
               >
-                <Text className={s.evochainText}>
-                  <Text className={s.evochainText}>{'>'}</Text>
-                </Text>
+                <Text className={s.evochainText}>{'>'}</Text>
               </Box>
               <Flex
                 w="25%"

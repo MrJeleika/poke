@@ -6,7 +6,7 @@ export const Evo1 = ({ evochain, setPokemon }) => {
   return (
     <>
       <Flex
-        w="25%"
+        w={['100%', '25%']}
         cursor="pointer"
         alignItems="center"
         justifyContent="center"
@@ -14,6 +14,7 @@ export const Evo1 = ({ evochain, setPokemon }) => {
         flexDirection="column"
       >
         <Image
+          w={['75px', '100%']}
           src={evochain.evo1.sprites.other['official-artwork'].front_default}
         />
         <Text className={s.evochainName}>{evochain.evo1.name}</Text>

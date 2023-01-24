@@ -1,6 +1,5 @@
-.modal{
-
-  &2{
+.modal {
+  &2 {
     min-width: 70% !important;
     @media (min-width: 768px) {
       min-width: 600px !important;
@@ -8,57 +7,56 @@
     padding: 10px;
   }
 }
-.header{
-  border: 0 !important; 
-
+.header {
+  border: 0 !important;
 }
-.body{
+.body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  color:#050f28;
+  color: #050f28;
 }
-.img{
+.img {
   max-width: 50%;
   margin-bottom: 10px;
   margin-top: -100px;
 }
-.number{
+.number {
   color: rgb(124, 124, 124);
   font-weight: 700;
   font-size: 16px;
   margin-bottom: 10px;
 }
-.name{
+.name {
   font-weight: 700;
   font-size: 26px;
   margin-bottom: 10px;
 }
-.title{
+.title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 20px;
 }
-.types{
+.types {
   display: flex;
   margin: 0 2.5px;
   margin-bottom: 10px;
 }
-.pokedexTitle{
+.pokedexTitle {
   margin-bottom: 5px;
 }
-.pokedexText{
+.pokedexText {
   text-align: center;
   line-height: 1.2;
   margin-bottom: 20px;
 }
-.parameters{
+.parameters {
   display: flex;
   width: 100%;
   justify-content: center;
   flex-wrap: wrap;
 }
-.parameter{
+.parameter {
   flex: 0 0 50%;
   margin-bottom: 15px;
   text-align: center;
@@ -66,29 +64,29 @@
   align-items: center;
   flex-direction: column;
   font-weight: 600;
-  &Title{
+  &Title {
     margin-bottom: 5px;
   }
-  &Value{
+  &Value {
     width: 60%;
     line-height: 1.5;
-    background: rgba(124, 124, 124,0.15);
+    background: rgba(124, 124, 124, 0.15);
     border-radius: 20px;
   }
 }
-.statsTitle{
+.statsTitle {
   margin-bottom: 10px;
 }
-.stats{
+.stats {
   width: 100%;
   justify-content: space-around;
 }
-.stat{
+.stat {
   width: 40px;
   align-items: center;
   flex-direction: column;
 }
-.statShape{
+.statShape {
   color: white;
   border-radius: 50%;
   width: 30px;
@@ -98,17 +96,19 @@
   justify-content: center;
   font-size: 12px;
   margin-bottom: 5px;
-
 }
-.statText{
+.statText {
   font-weight: 700;
   text-align: center;
 }
-.evochainText{
+.evochainText {
   color: rgb(124, 124, 124);
   font-size: 44px;
+  @media (max-width: 768px) {
+    transform: rotate(90deg);
+  }
 }
-.evochainName{
+.evochainName {
   font-weight: 700;
   font-size: 18px;
   text-transform: capitalize;
