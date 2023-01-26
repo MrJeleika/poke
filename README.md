@@ -15,14 +15,15 @@ Pokédex is catalog of information regarding the various species of Pokémon.
 git clone https://github.com/MrJeleika/pokedex.git
 ```
 
+npm
+
 ```
 npm install
 npm start
 ```
 
-<h4>
 yarn
-</h4>
+
 ```
 yarn
 yarn start
