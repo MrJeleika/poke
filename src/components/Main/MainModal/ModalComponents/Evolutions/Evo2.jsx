@@ -10,6 +10,7 @@ export const Evo2 = ({ evochain, setPokemon }) => {
           <React.Fragment key={i}>
             <Flex
               key={i}
+              w="100%"
               alignItems="center"
               cursor="pointer"
               justifyContent="center"

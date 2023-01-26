@@ -6,7 +6,7 @@ import { SelectField } from './Select/Select';
 // Misc
 import { Field, Form, Formik } from 'formik';
 import { OptionsValidationSchema } from 'helpers/_validate';
-import { Flex } from '@chakra-ui/react';
+import { Box, Flex } from '@chakra-ui/react';
 
 export const Options = (props) => {
   const {
@@ -85,52 +85,74 @@ export const Options = (props) => {
               <div className={s.option}>
                 <Flex
                   alignItems="center"
+                  display={['block', 'flex']}
                   justifyContent={['center', 'right', 'right']}
                   w={['100%', '100%', '40%']}
                   mb={['10px', '10px', '0']}
                 >
-                  <label htmlFor="type1" className={s.label}>
-                    type
-                  </label>
-                  <Field
-                    name={'type1'}
-                    option="type"
-                    id="type1"
-                    component={SelectField}
-                  />
-                  <label htmlFor="type2" className={s.label}>
-                    type
-                  </label>
-                  <Field
-                    name={'type2'}
-                    option="type"
-                    id="type2"
-                    component={SelectField}
-                  />
+                  <Flex
+                    alignItems="center"
+                    justifyContent="center"
+                    mb={['10px', '0', '0']}
+                  >
+                    <label htmlFor="type1" className={s.label}>
+                      type
+                    </label>
+                    <Field
+                      name={'type1'}
+                      option="type"
+                      id="type1"
+                      component={SelectField}
+                    />
+                  </Flex>
+                  <Flex alignItems="center" justifyContent="center">
+                    <label htmlFor="type2" className={s.label}>
+                      type
+                    </label>
+                    <Field
+                      name={'type2'}
+                      option="type"
+                      id="type2"
+                      component={SelectField}
+                    />
+                  </Flex>
                 </Flex>
                 <Flex
                   alignItems="center"
+                  flexDirection={['column', 'row', 'row']}
                   justifyContent={['center', 'right', 'right']}
                   w={['100%', '100%', '60%']}
                 >
-                  <label htmlFor="weight" className={s.label}>
-                    weight
-                  </label>
-                  <Field
-                    option="weight"
-                    name={'weight'}
-                    id="weight"
-                    component={SelectField}
-                  />
-                  <label htmlFor="height" className={s.label}>
-                    height
-                  </label>
-                  <Field
-                    option="height"
-                    name={'height'}
-                    id="height"
-                    component={SelectField}
-                  />
+                  <Flex
+                    alignItems="center"
+                    justifyContent="center"
+                    mb={['10px', '0', '0']}
+                  >
+                    <label htmlFor="weight" className={s.label}>
+                      weight
+                    </label>
+                    <Field
+                      option="weight"
+                      name={'weight'}
+                      id="weight"
+                      component={SelectField}
+                    />
+                  </Flex>
+                  <Flex
+                    alignItems="center"
+                    justifyContent="center"
+                    mb={['10px', '0', '0']}
+                  >
+                    <label htmlFor="height" className={s.label}>
+                      height
+                    </label>
+                    <Field
+                      option="height"
+                      name={'height'}
+                      id="height"
+                      component={SelectField}
+                    />
+                  </Flex>
                   <button
                     type="submit"
                     disabled={state.isFetching}

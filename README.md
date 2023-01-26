@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Pokédex</h1>
 <p>
   App build with React, Redux, Redux Thunk, Chakra UI, Poke API, Formik, Sass, Bootstrap
@@ -25,3 +26,8 @@ yarn
 yarn start
 ```
 </h3>
+=======
+Pokedex app built using React, Redux, Chakra UI
+
+You can check it [mrjeleika.github.io/pokedex/](https://mrjeleika.github.io/pokedex/)
+>>>>>>> 3e703fbc5b92ea60a13d8a29ed70a3014e2eda8f
