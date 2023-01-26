@@ -20,8 +20,8 @@ npm start
 ```
 
 <h4>
-</h4>
 yarn
+</h4>
 ```
 yarn
 yarn start
