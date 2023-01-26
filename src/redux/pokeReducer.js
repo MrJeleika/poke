@@ -150,7 +150,7 @@ export const setPokemonListThunk = (from, to) => {
   return async (dispatch) => {
     dispatch(setIsFetching(true));
     dispatch(clearPokemonList());
-
+    dispatch(setErrorCode(''));
     let response = await APIgetPokemonNamesList(from, to);
     const arr = await Promise.all(
       response.map((e) => {
