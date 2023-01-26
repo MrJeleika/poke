@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center">Pokédex</h1>
 <p>
   App build with React, Redux, Redux Thunk, Chakra UI, Poke API, Formik, Sass, Bootstrap
@@ -12,22 +11,18 @@ Pokédex is catalog of information regarding the various species of Pokémon.
 ```
 git clone https://github.com/MrJeleika/pokedex.git
 ```
-<h3>
+<h4>
 npm
+</h4>
 ```
 npm install
 npm start
 ```
-</h3>
-<h3>
+
+<h4>
+</h4>
 yarn
 ```
 yarn
 yarn start
 ```
-</h3>
-=======
-Pokedex app built using React, Redux, Chakra UI
-
-You can check it [mrjeleika.github.io/pokedex/](https://mrjeleika.github.io/pokedex/)
->>>>>>> 3e703fbc5b92ea60a13d8a29ed70a3014e2eda8f
