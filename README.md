@@ -11,10 +11,10 @@
 Pokédex is catalog of information regarding the various species of Pokémon.
 
 ## Project setup
+```
+git clone https://github.com/MrJeleika/pokedex.git
+```
 
-<h4>
-npm
-</h4>
 ```
 npm install
 npm start
