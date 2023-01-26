@@ -1,5 +1,7 @@
 <h1 align="center">Pokédex</h1>
 <p align="center"><img  src="./readme_assets/main.png" width="70%"></p>
+
+## Technologies
 <p>
   App built with React, Redux, Redux Thunk, Chakra UI, Poke API, Formik, Sass, Bootstrap
 </p>
@@ -9,9 +11,7 @@
 Pokédex is catalog of information regarding the various species of Pokémon.
 
 ## Project setup
-```
-git clone https://github.com/MrJeleika/pokedex.git
-```
+
 <h4>
 npm
 </h4>
