@@ -12,19 +12,19 @@ Pokédex is catalog of information regarding the various species of Pokémon.
 
 ## Project setup
 ```
-git clone https://github.com/MrJeleika/pokedex.git
+$ git clone https://github.com/MrJeleika/pokedex.git
 ```
 
 npm
 
 ```
-npm install
-npm run start
+$ npm install
+$ npm run start
 ```
 
 yarn
 
 ```
-yarn
-yarn start
+$ yarn
+$ yarn start
 ```
