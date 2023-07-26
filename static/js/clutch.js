@@ -939,7 +939,6 @@
       return Object.prototype.hasOwnProperty.call(e, t);
     }),
     (function () {
-      'use strict';
       n(913);
       (window.CLUTCHCO = window.CLUTCHCO || { loaded: !1 }),
         (window.CLUTCHCO.items = []),
