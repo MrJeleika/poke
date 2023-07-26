@@ -1,6 +1,6 @@
 /*! For license information please see widget.js.LICENSE.txt */
 // @ts-nocheck
-export function hey() {
+!(function () {
   var e = {
       913: function (e, t) {
         var n, i, o;
@@ -1088,4 +1088,4 @@ export function hey() {
             window.CLUTCHCO.Init();
         });
     })();
-}
+})();
